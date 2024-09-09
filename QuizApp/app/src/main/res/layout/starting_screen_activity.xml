@@ -1,0 +1,79 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nerko"
+            android:text="Welcome to the Quiz App"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_start_quiz"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/nerko"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="Start Quiz"/>
+
+        <Button
+            android:id="@+id/btn_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nerko"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+
+            android:text="Quit"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/nerko"
+            android:textColor="@color/black"
+            android:text="Made by:"
+            android:layout_gravity="center"
+
+            android:textSize="24sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nerko"
+            android:textColor="@color/black"
+            android:text="Mustaqim Afzal"
+            android:layout_gravity="center"
+
+            android:textSize="24sp"
+            android:layout_marginBottom="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nerko"
+            android:textColor="@color/black"
+            android:text="21L-7605"
+            android:layout_gravity="center"
+
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

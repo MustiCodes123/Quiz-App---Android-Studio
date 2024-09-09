@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!-- Questions Array -->
+    <string-array name="questions">
+        <item>What is the function of the MainActivity class in an Android application?</item>
+        <item>What is the purpose of the onCreate() method in an Android activity?</item>
+        <item>Which file in an Android project is used to define the user interface layout?</item>
+        <item>What does the AndroidManifest.xml file do in an Android project?</item>
+        <item>What is the role of Gradle in Android development?</item>
+        <item>In Android, what is an Intent, and how is it used to start activities?</item>
+        <item>How do you define a TextView in an XML layout file in Android Studio?</item>
+        <item>What is the difference between match_parent and wrap_content in Android layout attributes?</item>
+        <item>What is a RecyclerView, and why is it preferred over ListView in modern Android apps?</item>
+        <item>What is the difference between a Service and a BroadcastReceiver in Android?</item>
+        <item>Explain how SharedPreferences can be used to store simple data in an Android app.</item>
+        <item>What is an Adapter in Android, and how does it work with UI components like ListView or RecyclerView?</item>
+        <item>How do you create a Button in XML, and how do you handle its click event in Java?</item>
+        <item>What is the purpose of the ViewModel class in Android architecture components?</item>
+        <item>Explain the Activity lifecycle and the significance of the onPause() and onResume() methods.</item>
+        <item>What is a Fragment in Android, and how does it differ from an Activity?</item>
+        <item>How can you pass data between two activities in Android?</item>
+        <item>What is the role of Content Providers in Android, and when would you use them?</item>
+        <item>What is the difference between a LinearLayout and a ConstraintLayout in Android?</item>
+        <item>How do you define a custom style for a button in Android using XML?</item>
+        <item>What are the key components of MVVM (Model-View-ViewModel) architecture in Android?</item>
+        <item>Explain the significance of DP (Density-independent Pixels) and SP (Scale-independent Pixels) in Android design.</item>
+        <item>How can you localize your Android app to support different languages?</item>
+        <item>What is the function of the AsyncTask class in Android, and how has it been deprecated in favor of other solutions?</item>
+        <item>How does Android handle different screen sizes and densities, and how can developers ensure UI consistency across devices?</item>
+    </string-array>
+
+    <!-- Options Array -->
+    <string-array name="options">
+        <!-- Q1 options -->
+        <item>Main entry point</item>
+        <item>Handles app permissions</item>
+        <item>Displays the app icon</item>
+        <item>Runs background tasks</item>
+        <item>1</item> <!-- Correct answer -->
+
+        <!-- Q2 options -->
+        <item>Creates UI</item>
+        <item>Inflates the menu</item>
+        <item>Initializes the activity</item>
+        <item>Starts a service</item>
+        <item>3</item> <!-- Correct answer -->
+
+        <!-- Q3 options -->
+        <item>styles.xml</item>
+        <item>build.gradle</item>
+        <item>activity_main.xml</item>
+        <item>AndroidManifest.xml</item>
+        <item>3</item> <!-- Correct answer -->
+
+        <!-- Q4 options -->
+        <item>Handles project builds</item>
+        <item>Declares application components</item>
+        <item>Defines UI layouts</item>
+        <item>Configures device compatibility</item>
+        <item>2</item> <!-- Correct answer -->
+
+        <!-- Q5 options -->
+        <item>Compiles code</item>
+        <item>Manages dependencies</item>
+        <item>Builds the app</item>
+        <item>All of the above</item>
+        <item>4</item> <!-- Correct answer -->
+
+        <!-- Q6 options -->
+        <item>Starts a new activity</item>
+        <item>Transfers data between components</item>
+        <item>Starts a service</item>
+        <item>All of the above</item>
+        <item>4</item> <!-- Correct answer -->
+
+        <!-- Q7 options -->
+        <item>&lt;TextView&gt; tag in XML</item>
+        <item>In Java code</item>
+        <item>In the manifest file</item>
+        <item>In a styles file</item>
+        <item>1</item> <!-- Correct answer -->
+
+        <!-- Q8 options -->
+        <item>match_parent fills the parent, wrap_content adjusts to the content size</item>
+        <item>match_parent adjusts to content size, wrap_content fills the parent</item>
+        <item>Both do the same</item>
+        <item>None of the above</item>
+        <item>1</item> <!-- Correct answer -->
+
+        <!-- Q9 options -->
+        <item>RecyclerView is more efficient for large datasets</item>
+        <item>RecyclerView supports layout managers</item>
+        <item>RecyclerView supports item animations</item>
+        <item>All of the above</item>
+        <item>4</item> <!-- Correct answer -->
+
+        <!-- Q10 options -->
+        <item>Service runs in the background, BroadcastReceiver listens for broadcasts</item>
+        <item>Service listens for broadcasts, BroadcastReceiver runs in the background</item>
+        <item>Both run in the foreground</item>
+        <item>Both listen for system events</item>
+        <item>1</item> <!-- Correct answer -->
+
+        <!-- Q11 options -->
+        <item>Using SQLite</item>
+        <item>Using SharedPreferences</item>
+        <item>Using Content Providers</item>
+        <item>Using Files API</item>
+        <item>2</item> <!-- Correct answer: SharedPreferences -->
+
+        <!-- Q12 options -->
+        <item>An interface for managing background services</item>
+        <item>A class that binds data to views in UI components</item>
+        <item>A method for handling broadcast messages</item>
+        <item>A way to handle multi-threading</item>
+        <item>2</item> <!-- Correct answer: Adapter binds data to views -->
+
+        <!-- Q13 options -->
+        <item>&lt;Button&gt; tag in XML and onClickListener in Java</item>
+        <item>&lt;TextView&gt; tag in XML and setText in Java</item>
+        <item>&lt;LinearLayout&gt; tag in XML and onClick method in Java</item>
+        <item>&lt;ImageView&gt; tag in XML and clickHandler in Java</item>
+        <item>1</item> <!-- Correct answer: Button tag in XML and onClickListener -->
+
+        <!-- Q14 options -->
+        <item>Handles user input</item>
+        <item>Manages app data</item>
+        <item>Manages UI-related data in a lifecycle-conscious way</item>
+        <item>Handles network operations</item>
+        <item>3</item> <!-- Correct answer: Manages UI-related data -->
+
+        <!-- Q15 options -->
+        <item>Manages the activity UI state</item>
+        <item>Persists data during orientation changes</item>
+        <item>Handles lifecycle changes for Fragments</item>
+        <item>All of the above</item>
+        <item>4</item> <!-- Correct answer: All of the above -->
+
+        <!-- Q16 options -->
+        <item>A modular part of an activity, representing a portion of the UI</item>
+        <item>A background process for network requests</item>
+        <item>A view for displaying large datasets</item>
+        <item>A way to handle user input events</item>
+        <item>1</item> <!-- Correct answer: Modular part of an activity -->
+
+        <!-- Q17 options -->
+        <item>Using SharedPreferences</item>
+        <item>Using Intents</item>
+        <item>Using BroadcastReceiver</item>
+        <item>Using Services</item>
+        <item>2</item> <!-- Correct answer: Intents -->
+
+        <!-- Q18 options -->
+        <item>Stores data for specific apps</item>
+        <item>Handles app permissions</item>
+        <item>Facilitates data sharing between apps</item>
+        <item>Manages network requests</item>
+        <item>3</item> <!-- Correct answer: Facilitates data sharing between apps -->
+
+        <!-- Q19 options -->
+        <item>LinearLayout arranges elements vertically or horizontally; ConstraintLayout arranges elements based on constraints</item>
+        <item>LinearLayout is faster; ConstraintLayout is for advanced layouts</item>
+        <item>LinearLayout is for touch events; ConstraintLayout is for UI updates</item>
+        <item>LinearLayout handles orientation; ConstraintLayout handles transitions</item>
+        <item>1</item> <!-- Correct answer: Arranges elements based on constraints -->
+
+        <!-- Q20 options -->
+        <item>Define a custom drawable in the styles.xml</item>
+        <item>Define a custom theme in the AndroidManifest.xml</item>
+        <item>Define a custom style in the res/values/styles.xml</item>
+        <item>Define a custom theme in the activity_main.xml</item>
+        <item>3</item> <!-- Correct answer: Custom style in styles.xml -->
+
+        <!-- Q21 options -->
+        <item>Model, View, Virtual Machine</item>
+        <item>Model, View, ViewController</item>
+        <item>Model, View, ViewModel</item>
+        <item>Model, View, Controller</item>
+        <item>3</item> <!-- Correct answer: Model, View, ViewModel -->
+
+        <!-- Q22 options -->
+        <item>DP is for text size, SP is for density</item>
+        <item>DP is for padding and margin, SP is for fonts</item>
+        <item>DP is density-independent pixels, SP is scale-independent pixels</item>
+        <item>DP and SP are the same</item>
+        <item>3</item> <!-- Correct answer: DP for density, SP for scale -->
+
+        <!-- Q23 options -->
+        <item>Define a separate strings.xml for each language</item>
+        <item>Use Google Translate</item>
+        <item>Create multiple APKs</item>
+        <item>Translate the AndroidManifest.xml file</item>
+        <item>1</item> <!-- Correct answer: Separate strings.xml for each language -->
+
+        <!-- Q24 options -->
+        <item>AsyncTask is used for UI operations</item>
+        <item>AsyncTask runs code on the UI thread</item>
+        <item>AsyncTask allows background operations on a separate thread and communicates results to the UI thread</item>
+        <item>AsyncTask replaces Services</item>
+        <item>3</item> <!-- Correct answer: Background operations on a separate thread -->
+
+        <!-- Q25 options -->
+        <item>By using different layout files for different screen sizes</item>
+        <item>By using scalable vector graphics</item>
+        <item>By defining resource qualifiers like small, large, xlarge</item>
+        <item>All of the above</item>
+        <item>4</item> <!-- Correct answer: All of the above -->
+
+    </string-array>
+</resources>
